@@ -2,7 +2,7 @@ package DSA;
 
 import java.util.Scanner;
 
-class Solution {
+public class ReverseNumber {
     static int reverseDigits(int n) {
 
         int reverse = 0;

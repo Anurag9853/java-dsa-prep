@@ -9,6 +9,11 @@ public class Average {
         System.out.println("Enter count of number");
         int n = sc.nextInt();
 
+        if (n <= 0) {
+            System.out.println("Invalid");
+            return;
+        }
+
         int sum = 0;
 
         for(int i=0;i<n;i++){

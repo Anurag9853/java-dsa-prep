@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class swap {
+public class swap_With_3rd_variable {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -13,8 +13,8 @@ public class swap {
         a = b;
         b= temp;
 
-        System.out.println("A"+a);
-        System.out.println("B"+b);
+        System.out.println("A:"+a);
+        System.out.println("B:"+b);
 
     }
 }
